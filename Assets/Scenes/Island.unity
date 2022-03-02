@@ -123,15 +123,301 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &36789630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 118336, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Pink_Mobile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.460144
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04941368
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.126465
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+--- !u!1 &116062535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 118336, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 36789630}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 116062536}
+  - component: {fileID: 116062538}
+  - component: {fileID: 116062537}
+  m_Layer: 0
+  m_Name: BeachChair_Pink_Mobile (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &116062536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 36789630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116062535}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5000001, w: 0.49999994}
+  m_LocalPosition: {x: -62.460144, y: -0.04941368, z: 39.126465}
+  m_LocalScale: {x: 0.47725195, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &116062537
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2321814, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 36789630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116062535}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &116062538
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3341578, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 36789630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116062535}
+  m_Mesh: {fileID: 4300000, guid: a50416bc19fdbe54aa6cd322b9ba1c46, type: 3}
+--- !u!1 &182968659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1372824774}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182968660}
+  - component: {fileID: 182968662}
+  - component: {fileID: 182968661}
+  m_Layer: 0
+  m_Name: BeachChair_S_Orange_Mobile (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182968660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1372824774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182968659}
+  m_LocalRotation: {x: -0.3467779, y: -0.6162347, z: -0.6162345, w: 0.34677798}
+  m_LocalPosition: {x: -56.720276, y: -0.20541382, z: 18.846436}
+  m_LocalScale: {x: 0.47725192, y: 0.47725198, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -121.264}
+--- !u!23 &182968661
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2370732, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1372824774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182968659}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &182968662
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3366536, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1372824774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182968659}
+  m_Mesh: {fileID: 4300000, guid: 648700a39bc8ee640b0308424c5c0cdc, type: 3}
 --- !u!4 &198086261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 1996296300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &232918998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.0497437
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1945858
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6235504
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+--- !u!4 &232918999 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 44c08d1b2f13bf743a7096579887c4f6, type: 3}
+  m_PrefabInstance: {fileID: 232918998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &245116680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 2032336968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &299062559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
+  m_PrefabInstance: {fileID: 2118610851}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &302472898
 GameObject:
@@ -264,6 +550,223 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1001 &325269036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2564999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.316956
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.014820099
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.152191
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+--- !u!4 &325269037 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+  m_PrefabInstance: {fileID: 325269036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &359062346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 713759695}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359062347}
+  - component: {fileID: 359062349}
+  - component: {fileID: 359062348}
+  m_Layer: 0
+  m_Name: BeachChair_Blue_Mobile (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359062347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 713759695}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359062346}
+  m_LocalRotation: {x: -0.108942136, y: -0.69866407, z: -0.69866425, w: 0.10894225}
+  m_LocalPosition: {x: -27.61029, y: -0.4908409, z: 2.7864532}
+  m_LocalScale: {x: 0.47725195, y: 0.47725192, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -162.275}
+--- !u!23 &359062348
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2330570, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 713759695}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359062346}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &359062349
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3329348, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 713759695}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359062346}
+  m_Mesh: {fileID: 4300000, guid: 6b91f13c38e35c34ebd31b4102dbdc68, type: 3}
+--- !u!1001 &376460586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 125826, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Neon_Desktop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.86247474
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8624746
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -70.39026
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.244585
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 392.75647
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70360947
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.07024165
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7036093
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07024163
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.402
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+--- !u!4 &376460587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+  m_PrefabInstance: {fileID: 376460586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &389504651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -329,11 +832,320 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &440847799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_S_Orange_Mobile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.84027
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.16541481
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.596436
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.34677798
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3467779
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6162347
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6162345
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -121.264
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
 --- !u!4 &463002440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 2072668484}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &463014973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_LightGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2243145
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -61.12024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04458618
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.263397
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+--- !u!4 &463014974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e0bc91661bb32f4fa36333199422276, type: 3}
+  m_PrefabInstance: {fileID: 463014973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &584923320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 118336, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 1384148274}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584923321}
+  - component: {fileID: 584923323}
+  - component: {fileID: 584923322}
+  m_Layer: 0
+  m_Name: BeachChair_Pink_Mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584923321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 1384148274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584923320}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5000001, w: 0.49999994}
+  m_LocalPosition: {x: -62.460144, y: -0.0554142, z: 41.748535}
+  m_LocalScale: {x: 0.47725195, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &584923322
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2321814, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 1384148274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584923320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &584923323
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3341578, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+  m_PrefabInstance: {fileID: 1384148274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584923320}
+  m_Mesh: {fileID: 4300000, guid: a50416bc19fdbe54aa6cd322b9ba1c46, type: 3}
+--- !u!1001 &595375433
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple_Mobile (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.219727
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.025413513
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7135468
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005637739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0056376606
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.086
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+--- !u!1 &599606767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 599606768}
+  m_Layer: 0
+  m_Name: surfboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &599606768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599606767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 589.58026, y: 29.645414, z: 245.01355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 376460587}
+  - {fileID: 1244391735}
+  - {fileID: 889363906}
+  - {fileID: 1537926007}
+  - {fileID: 1393725137}
+  - {fileID: 2140632199}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &611165572
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +1225,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 1022215241}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &636557999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 2106052452}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636558000}
+  - component: {fileID: 636558002}
+  - component: {fileID: 636558001}
+  m_Layer: 0
+  m_Name: BeachChair_Purple_Mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &636558000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 2106052452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636557999}
+  m_LocalRotation: {x: -0.0056376606, y: -0.70708436, z: -0.70708436, w: 0.005637739}
+  m_LocalPosition: {x: 1.9647827, y: -0.17541504, z: -2.7735443}
+  m_LocalScale: {x: 0.47725198, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -179.086}
+--- !u!23 &636558001
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2359572, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 2106052452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636557999}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &636558002
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3344532, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 2106052452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636557999}
+  m_Mesh: {fileID: 4300000, guid: c9e53482cc446d94c9c25470dd10cfcf, type: 3}
 --- !u!4 &692217608 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
@@ -483,6 +1376,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &713759695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue_Mobile (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.61029
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4908409
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7864532
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10894225
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.108942136
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69866407
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.69866425
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -162.275
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+--- !u!1001 &734585400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue_Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -33.354614
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4908409
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.3064575
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10894225
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.108942136
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69866407
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.69866425
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -162.275
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
 --- !u!1001 &749744804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -548,6 +1563,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &752619413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 902088135}
+    m_Modifications:
+    - target: {fileID: 104536, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_Name
+      value: BeachBucket_Blue_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5908602
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5908601
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5908601
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35.406372
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7123318
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.638153
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+--- !u!4 &752619414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 439950, guid: 7a0abe9602b7e9b4e8fd09b468a8fc66, type: 3}
+  m_PrefabInstance: {fileID: 752619413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &771091932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -617,6 +1706,142 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 1097332519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &807452611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 902088135}
+    m_Modifications:
+    - target: {fileID: 194766, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_Name
+      value: BeachBucket_Purple_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.1364136
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.55062294
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.490753
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+--- !u!4 &807452612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 419112, guid: 15c6a98a682d3ec47bef4431c7752251, type: 3}
+  m_PrefabInstance: {fileID: 807452611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &839962213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 902088135}
+    m_Modifications:
+    - target: {fileID: 137734, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_Name
+      value: BeachBucket_Pink_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.70819217
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7081921
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7081921
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.91992
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4423313
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.781525
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+--- !u!4 &839962214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 452496, guid: a7f0666dc1e76a14d8f464b51a68168c, type: 3}
+  m_PrefabInstance: {fileID: 839962213}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &846498264
 PrefabInstance:
@@ -703,16 +1928,449 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b544816461f324e56a39767fdeb5b114, type: 3}
+--- !u!1001 &851331536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 154836, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Lemonade_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 555.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 251.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.46570572
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.53208846
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5320884
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.465706
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -97.612
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 465120, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d54c0955792d5c14e915b82ed07181da, type: 3}
 --- !u!4 &856833277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 1745325616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &884237010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1054790965}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884237011}
+  - component: {fileID: 884237013}
+  - component: {fileID: 884237012}
+  m_Layer: 0
+  m_Name: BeachChair_Blue_Mobile (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &884237011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1054790965}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884237010}
+  m_LocalRotation: {x: -0.108942136, y: -0.69866407, z: -0.69866425, w: 0.10894225}
+  m_LocalPosition: {x: -31.490234, y: -0.4908409, z: 3.7364502}
+  m_LocalScale: {x: 0.47725195, y: 0.47725192, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -162.275}
+--- !u!23 &884237012
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2330570, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1054790965}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884237010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &884237013
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3329348, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1054790965}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884237010}
+  m_Mesh: {fileID: 4300000, guid: 6b91f13c38e35c34ebd31b4102dbdc68, type: 3}
+--- !u!1001 &889363905
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 145928, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Yellow_Desktop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 110.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3472576
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 75.923
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+--- !u!4 &889363906 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+  m_PrefabInstance: {fileID: 889363905}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &893545166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 1505314414}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &902088134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902088135}
+  m_Layer: 0
+  m_Name: buckets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &902088135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902088134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 568.50995, y: 30.112331, z: 275.25394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 807452612}
+  - {fileID: 839962214}
+  - {fileID: 752619414}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &920417288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1065999852}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920417289}
+  - component: {fileID: 920417291}
+  - component: {fileID: 920417290}
+  m_Layer: 0
+  m_Name: BeachChair_S_Orange_Mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &920417289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1065999852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920417288}
+  m_LocalRotation: {x: -0.3467779, y: -0.6162347, z: -0.6162345, w: 0.34677798}
+  m_LocalPosition: {x: -58.87744, y: -0.14541435, z: 22.445618}
+  m_LocalScale: {x: 0.47725192, y: 0.47725198, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -121.264}
+--- !u!23 &920417290
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2370732, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1065999852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920417288}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &920417291
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3366536, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 1065999852}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920417288}
+  m_Mesh: {fileID: 4300000, guid: 648700a39bc8ee640b0308424c5c0cdc, type: 3}
+--- !u!1 &955743728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955743729}
+  m_Layer: 0
+  m_Name: umbrella
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955743729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955743728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 589.58026, y: 29.645414, z: 245.01355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1503194087}
+  - {fileID: 232918999}
+  - {fileID: 1137111092}
+  - {fileID: 463014974}
+  - {fileID: 1772016408}
+  - {fileID: 325269037}
+  - {fileID: 1057210307}
+  - {fileID: 1970926401}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980546455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1624388835}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980546456}
+  - component: {fileID: 980546458}
+  - component: {fileID: 980546457}
+  m_Layer: 0
+  m_Name: BeachChair_Purple_Mobile (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &980546456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1624388835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980546455}
+  m_LocalRotation: {x: -0.0056376606, y: -0.70708436, z: -0.70708436, w: 0.005637739}
+  m_LocalPosition: {x: 6.0997314, y: -0.04541397, z: -2.683548}
+  m_LocalScale: {x: 0.47725198, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -179.086}
+--- !u!23 &980546457
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2359572, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1624388835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980546455}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &980546458
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3344532, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1624388835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980546455}
+  m_Mesh: {fileID: 4300000, guid: c9e53482cc446d94c9c25470dd10cfcf, type: 3}
 --- !u!4 &993624958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
@@ -876,6 +2534,198 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1054790965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue_Mobile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.490234
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4908409
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.7364502
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10894225
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.108942136
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69866407
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.69866425
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -162.275
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+--- !u!1001 &1057210306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2656999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.318848
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.47541428
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.8076935
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+--- !u!4 &1057210307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
+  m_PrefabInstance: {fileID: 1057210306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1065999852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_S_Orange_Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -58.87744
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14541435
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.445618
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.34677798
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3467779
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6162347
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6162345
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -121.264
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
 --- !u!1001 &1097332519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1017,6 +2867,153 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1137111091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Cyan
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0454576
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.831726
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10699844
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.41008
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+--- !u!4 &1137111092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+  m_PrefabInstance: {fileID: 1137111091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1149914263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1838965253}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149914264}
+  - component: {fileID: 1149914266}
+  - component: {fileID: 1149914265}
+  m_Layer: 0
+  m_Name: BeachChair_Blue_Mobile (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149914264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1838965253}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149914263}
+  m_LocalRotation: {x: -0.108942136, y: -0.69866407, z: -0.69866425, w: 0.10894225}
+  m_LocalPosition: {x: -29.560242, y: -0.4908409, z: 3.1604462}
+  m_LocalScale: {x: 0.47725195, y: 0.47725192, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -162.275}
+--- !u!23 &1149914265
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2330570, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1838965253}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149914263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1149914266
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3329348, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 1838965253}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149914263}
+  m_Mesh: {fileID: 4300000, guid: 6b91f13c38e35c34ebd31b4102dbdc68, type: 3}
 --- !u!1001 &1231627268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1082,10 +3079,345 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &1244391734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 176032, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Pink_Desktop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86247474
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.86247474
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.239746
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3915844
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 224.21646
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.187186
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.025812868
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9815211
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.030189326
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.952
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -158.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.262
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+--- !u!4 &1244391735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+  m_PrefabInstance: {fileID: 1244391734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1351306185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 440847799}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351306186}
+  - component: {fileID: 1351306188}
+  - component: {fileID: 1351306187}
+  m_Layer: 0
+  m_Name: BeachChair_S_Orange_Mobile (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351306186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 440847799}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351306185}
+  m_LocalRotation: {x: -0.3467779, y: -0.6162347, z: -0.6162345, w: 0.34677798}
+  m_LocalPosition: {x: -57.84027, y: -0.16541481, z: 20.596436}
+  m_LocalScale: {x: 0.47725192, y: 0.47725198, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -121.264}
+--- !u!23 &1351306187
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2370732, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 440847799}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351306185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1351306188
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3366536, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+  m_PrefabInstance: {fileID: 440847799}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351306185}
+  m_Mesh: {fileID: 4300000, guid: 648700a39bc8ee640b0308424c5c0cdc, type: 3}
 --- !u!4 &1356914819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
   m_PrefabInstance: {fileID: 749744804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1372824774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 194872, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_S_Orange_Mobile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -56.720276
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.20541382
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.846436
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.34677798
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.3467779
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6162347
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6162345
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434310, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -121.264
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51d1f9c860804d34385fff9bf0932372, type: 3}
+--- !u!1001 &1384148274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 118336, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Pink_Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.460144
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0554142
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.748535
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494140, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf3bb2c364a71174caa71433ead1cdfb, type: 3}
+--- !u!1001 &1393725136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 176032, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Pink_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -50.040283
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34458542
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 68.48645
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+--- !u!4 &1393725137 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 436114, guid: fc75738376221c5409ab9b1dac0bf3da, type: 3}
+  m_PrefabInstance: {fileID: 1393725136}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1430277682
 GameObject:
@@ -1201,6 +3533,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015cc955fa820a34fa386051717616a6, type: 3}
+--- !u!1001 &1503194086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Cyan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.334351
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18979454
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9362793
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+--- !u!4 &1503194087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 7089ae9ffa8be274a92a37d2361ba826, type: 3}
+  m_PrefabInstance: {fileID: 1503194086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1505314414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1266,6 +3660,210 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &1537900506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple_Mobile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.0097656
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.015415192
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7635498
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005637739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0056376606
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.086
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+--- !u!1001 &1537926006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 145928, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Yellow_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -62.025513
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.124586105
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.467316
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+--- !u!4 &1537926007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 433904, guid: dee292d3f58817e489f00e6e677b8509, type: 3}
+  m_PrefabInstance: {fileID: 1537926006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1567253058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1537900506}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1567253059}
+  - component: {fileID: 1567253061}
+  - component: {fileID: 1567253060}
+  m_Layer: 0
+  m_Name: BeachChair_Purple_Mobile (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1567253059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1537900506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567253058}
+  m_LocalRotation: {x: -0.0056376606, y: -0.70708436, z: -0.70708436, w: 0.005637739}
+  m_LocalPosition: {x: 4.0097656, y: -0.015415192, z: -2.7635498}
+  m_LocalScale: {x: 0.47725198, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -179.086}
+--- !u!23 &1567253060
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2359572, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1537900506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567253058}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1567253061
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3344532, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1537900506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567253058}
+  m_Mesh: {fileID: 4300000, guid: c9e53482cc446d94c9c25470dd10cfcf, type: 3}
 --- !u!4 &1589950332 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
@@ -1339,8 +3937,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621457723}
-  m_LocalRotation: {x: 0.043949895, y: -0.12283888, z: 0.016933758, w: 0.9913084}
-  m_LocalPosition: {x: -205.7532, y: 8.329636, z: -633.91626}
+  m_LocalRotation: {x: -0.10330558, y: 0.43075678, z: 0.049715962, w: 0.8951564}
+  m_LocalPosition: {x: 23.034393, y: -34.322094, z: -654.7423}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1430277683}
@@ -1355,6 +3953,67 @@ Skybox:
   m_GameObject: {fileID: 1621457723}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
+--- !u!1001 &1624388835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple_Mobile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.0997314
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04541397
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.683548
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005637739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0056376606
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.086
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
 --- !u!1001 &1743922783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1485,6 +4144,356 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &1772016407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Pink (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2673999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.728516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07326698
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.587738
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+--- !u!4 &1772016408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 19ee609e08c20f249a7670123768e957, type: 3}
+  m_PrefabInstance: {fileID: 1772016407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1787997447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 734585400}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787997448}
+  - component: {fileID: 1787997450}
+  - component: {fileID: 1787997449}
+  m_Layer: 0
+  m_Name: BeachChair_Blue_Mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787997448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 734585400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787997447}
+  m_LocalRotation: {x: -0.108942136, y: -0.69866407, z: -0.69866425, w: 0.10894225}
+  m_LocalPosition: {x: -33.354614, y: -0.4908409, z: 4.3064575}
+  m_LocalScale: {x: 0.47725195, y: 0.47725192, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -162.275}
+--- !u!23 &1787997449
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2330570, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 734585400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787997447}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1787997450
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3329348, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+  m_PrefabInstance: {fileID: 734585400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787997447}
+  m_Mesh: {fileID: 4300000, guid: 6b91f13c38e35c34ebd31b4102dbdc68, type: 3}
+--- !u!1001 &1819453278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple_Mobile (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.419739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.024585724
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.6735535
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005637739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0056376606
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.086
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+--- !u!1001 &1838965253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 146694, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Blue_Mobile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47725192
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.560242
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4908409
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.1604462
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10894225
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.108942136
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.69866407
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.69866425
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 470328, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -162.275
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9872fdc4ce00b8348a5c779b8861c9dd, type: 3}
+--- !u!1 &1859304351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 595375433}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1859304352}
+  - component: {fileID: 1859304354}
+  - component: {fileID: 1859304353}
+  m_Layer: 0
+  m_Name: BeachChair_Purple_Mobile (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1859304352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 595375433}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859304351}
+  m_LocalRotation: {x: -0.0056376606, y: -0.70708436, z: -0.70708436, w: 0.005637739}
+  m_LocalPosition: {x: 8.219727, y: -0.025413513, z: -2.7135468}
+  m_LocalScale: {x: 0.47725198, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -179.086}
+--- !u!23 &1859304353
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2359572, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 595375433}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859304351}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1859304354
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3344532, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 595375433}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859304351}
+  m_Mesh: {fileID: 4300000, guid: c9e53482cc446d94c9c25470dd10cfcf, type: 3}
 --- !u!1 &1885055129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,9 +4534,157 @@ Transform:
   - {fileID: 856833277}
   - {fileID: 1356914819}
   - {fileID: 893545166}
+  - {fileID: 299062559}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1909836567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1819453278}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909836568}
+  - component: {fileID: 1909836570}
+  - component: {fileID: 1909836569}
+  m_Layer: 0
+  m_Name: BeachChair_Purple_Mobile (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1909836568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1819453278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909836567}
+  m_LocalRotation: {x: -0.0056376606, y: -0.70708436, z: -0.70708436, w: 0.005637739}
+  m_LocalPosition: {x: 10.419739, y: 0.024585724, z: -2.6735535}
+  m_LocalScale: {x: 0.47725198, y: 0.47725195, z: 0.47725195}
+  m_Children: []
+  m_Father: {fileID: 2033029742}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -179.086}
+--- !u!23 &1909836569
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2359572, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1819453278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909836567}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5c8c35d9b71b1374ab241563bbb3d73b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1909836570
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3344532, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+  m_PrefabInstance: {fileID: 1819453278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909836567}
+  m_Mesh: {fileID: 4300000, guid: c9e53482cc446d94c9c25470dd10cfcf, type: 3}
+--- !u!1001 &1970926400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 955743729}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_Name
+      value: BeachUmbrella_Rainbow
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1148999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.101807
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03560257
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.078232
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+--- !u!4 &1970926401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8adfeee935cba9c4496c00a1254e414c, type: 3}
+  m_PrefabInstance: {fileID: 1970926400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1996296300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,6 +4820,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1 &2033029741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2033029742}
+  m_Layer: 0
+  m_Name: chair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2033029742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033029741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 589.58026, y: 29.645414, z: 245.01355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 116062536}
+  - {fileID: 1351306186}
+  - {fileID: 182968660}
+  - {fileID: 884237011}
+  - {fileID: 1149914264}
+  - {fileID: 359062347}
+  - {fileID: 1567253059}
+  - {fileID: 980546456}
+  - {fileID: 1859304352}
+  - {fileID: 1909836568}
+  - {fileID: 636558000}
+  - {fileID: 1787997448}
+  - {fileID: 920417289}
+  - {fileID: 584923321}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2072668484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1728,12 +4929,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &2106052452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2033029742}
+    m_Modifications:
+    - target: {fileID: 157382, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_Name
+      value: BeachChair_Purple_Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47725198
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9647827
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17541504
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7735443
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.005637739
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0056376606
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70708436
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 473310, guid: 702589852104c6742b44ef777d8bf038, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.086
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 702589852104c6742b44ef777d8bf038, type: 3}
 --- !u!1001 &2118610851
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1885055130}
     m_Modifications:
     - target: {fileID: 100004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_Name
@@ -1741,7 +5003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalScale.x
@@ -1753,15 +5015,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 278.37982
+      value: -204.37338
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.99266
+      value: 12.178749
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 279.60507
+      value: -619.23584
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1769,15 +5031,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1793,6 +5055,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d027af1092f6b434090f040565e7e656, type: 3}
+--- !u!1001 &2140632198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 599606768}
+    m_Modifications:
+    - target: {fileID: 125826, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_Name
+      value: Surfboard_Neon_Desktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.08606
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34726524
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.248413
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+--- !u!4 &2140632199 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 426556, guid: 54d0146885fddc3418be4b4686ec0104, type: 3}
+  m_PrefabInstance: {fileID: 2140632198}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2143531028 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: d027af1092f6b434090f040565e7e656, type: 3}
