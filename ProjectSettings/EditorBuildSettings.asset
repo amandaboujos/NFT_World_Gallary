@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/NFT-World.unity
+    path: 
     guid: 1d0fff174248590458636da88d4fb3ec
   - enabled: 1
     path: Assets/Scenes/SpaceStation.unity
@@ -14,6 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Space.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Island.unity
+    guid: bd2c3a745b8ee144a9b19ce3620d83f7
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bb4fea14854ac10438c7d739921bb02d, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: b7033e279b616a54195f43421051b065, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4deea4508e6425f4f904adccaab1208e, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7e2b595f43c9d834d8101e7ce1dbea86, type: 2}
