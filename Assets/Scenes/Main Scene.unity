@@ -188,7 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 562634877398739390, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
       propertyPath: m_Name
-      value: Chair_Gaming_2
+      value: Chair_Gaming
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367301077933469196, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
+      propertyPath: m_Name
+      value: GamingChair
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
@@ -589,7 +593,7 @@ GameObject:
   - component: {fileID: 261127410}
   - component: {fileID: 261127411}
   m_Layer: 0
-  m_Name: Sketchfab_model
+  m_Name: walls and floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,6 +1619,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856313349}
   m_Mesh: {fileID: 4300000, guid: c24a0956e7d9514438a706b95ab5af15, type: 2}
+--- !u!1 &867228727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 562634877398739390, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
+  m_PrefabInstance: {fileID: 17944166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &867228728
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867228727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &897312619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,7 +2068,7 @@ Transform:
   m_LocalScale: {x: 15.928939, y: 15.928939, z: 15.928939}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &1114199486
 GameObject:
@@ -4055,7 +4078,7 @@ GameObject:
   - component: {fileID: 1989721705}
   - component: {fileID: 1989721704}
   m_Layer: 0
-  m_Name: Gaming_PC_Amazing_4
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4088,7 +4111,7 @@ Transform:
   m_Children:
   - {fileID: 261127410}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991891441
 GameObject:
