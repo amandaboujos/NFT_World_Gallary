@@ -12,7 +12,7 @@ namespace com.zibra.liquid.Editor.SDFObjects
     [ExecuteInEditMode]
     public class ZibraServerAuthenticationManager
     {
-        private const string BASE_URL = "http://gen.zibra.ai:5000/";
+        private const string BASE_URL = "http://generation.zibra.ai/";
         private string UserHardwareID = "";
         private string UserID = "";
         UnityWebRequestAsyncOperation request;

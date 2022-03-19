@@ -149,10 +149,6 @@ namespace com.zibra.liquid
                 {
                     cmd.SetRenderTarget(upscaleColorTexture, upscaleDepthTexture);
                 }
-                else
-                {
-                    cmd.SetRenderTarget(cameraColorTexture, cameraDepthTexture);
-                }
 
                 liquid.RenderLiquidDirect(cmd, camera);
 
@@ -217,7 +213,6 @@ namespace com.zibra.liquid
 
                 upscaleColorTexture = new RenderTargetIdentifier(upscaleColorTextureID);
                 upscaleDepthTexture = new RenderTargetIdentifier(upscaleDepthTextureID);
-                cmd.SetRenderTarget(cameraColorTexture, cameraDepthTexture);
                 liquid.UpscaleLiquidDirect(cmd, camera, upscaleColorTexture, upscaleDepthTexture);
 
                 context.ExecuteCommandBuffer(cmd);
