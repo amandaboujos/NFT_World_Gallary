@@ -15,6 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SpaceStation.unity
     guid: a54e46a6d1d2f5e4ea5974af6eb8c89b
   m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 236eedfe170fdf34abb791f76cea9ad0, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1705a5375b743c9438d33bb74d613c79, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: b7033e279b616a54195f43421051b065, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4deea4508e6425f4f904adccaab1208e, type: 2}
