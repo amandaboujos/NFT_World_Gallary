@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12931797, g: 0.11221085, b: 0.067010984, a: 1}
+  m_IndirectSpecularColor: {r: 0.1274845, g: 0.11314743, b: 0.0674117, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3458,8 +3458,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103047294}
-  m_LocalRotation: {x: 0.4597077, y: 0.027071355, z: 0.013806812, w: -0.88755023}
-  m_LocalPosition: {x: 1043.1371, y: -485.49835, z: -5908.738}
+  m_LocalRotation: {x: 0.011089345, y: 0.9892236, z: 0.09310456, w: -0.11245157}
+  m_LocalPosition: {x: 9.738201, y: 56.339783, z: 16.539825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3723,6 +3723,14 @@ PrefabInstance:
       propertyPath: m_StickToGroundForce
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Height
       value: 50
