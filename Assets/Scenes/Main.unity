@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 385192401318824108, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 385192401318824108, guid: 38515aa60bcf11e4b972d3b37a3fa877, type: 3}
       propertyPath: m_LocalScale.x
@@ -756,7 +756,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469532983
 GameObject:
@@ -1432,7 +1432,7 @@ Transform:
   m_LocalScale: {x: 7.051962, y: 7.051962, z: 7.051962}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &824890150
 GameObject:
@@ -1662,7 +1662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4590852826190610, guid: af1c322da33b9ec40b0f5a418ed90ef4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4590852826190610, guid: af1c322da33b9ec40b0f5a418ed90ef4, type: 3}
       propertyPath: m_LocalScale.x
@@ -1998,7 +1998,7 @@ Transform:
   m_LocalScale: {x: 15.928939, y: 15.928939, z: 15.928939}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &1114199486
 GameObject:
@@ -2277,7 +2277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3
+      value: 25.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2285,7 +2285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.2
+      value: 16.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2826,7 +2826,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1442923828
 GameObject:
@@ -3109,7 +3109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4119596741741680, guid: 12370ddcc6985ba4abe57fc5b64502f8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4119596741741680, guid: 12370ddcc6985ba4abe57fc5b64502f8, type: 3}
       propertyPath: m_LocalScale.x
@@ -3488,6 +3488,11 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!20 &1832347742 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 1187486670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1835926485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,6 +3735,92 @@ Transform:
   m_Father: {fileID: 1533842882}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1930816357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1930816359}
+  - component: {fileID: 1930816360}
+  - component: {fileID: 1930816358}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1930816358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930816357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c316693cdb514b341b3057119478c60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1930816359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930816357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4680595, y: -6.17091, z: 2.7383318}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930816360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930816357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 0ea6f58760d0dfb45b5a71bdbb2e8589, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8f8f39c4-1135-4e0a-9155-85a1d6ea3906
+    m_ActionName: CharacterControls/Move[/SwitchProControllerHID/leftStick/up,/XInputControllerWindows/leftStick/up,/SwitchProControllerHID1/leftStick/up,/SwitchProControllerHID2/leftStick/up,/XInputControllerWindows1/leftStick/up,/SwitchProControllerHID3/leftStick/up,/SwitchProControllerHID4/leftStick/up,/XInputControllerWindows2/leftStick/up,/SwitchProControllerHID5/leftStick/up,/SwitchProControllerHID6/leftStick/up,/SwitchProControllerHID7/leftStick/up,/SwitchProControllerHID8/leftStick/up,/SwitchProControllerHID9/leftStick/up,/XInputControllerWindows3/leftStick/up,/SwitchProControllerHID10/leftStick/up,/XInputControllerWindows4/leftStick/up,/SwitchProControllerHID11/leftStick/up,/XInputControllerWindows5/leftStick/up,/SwitchProControllerHID12/leftStick/up,/SwitchProControllerHID13/leftStick/up,/XInputControllerWindows6/leftStick/up,/SwitchProControllerHID14/leftStick/up,/SwitchProControllerHID/leftStick/down,/XInputControllerWindows/leftStick/down,/SwitchProControllerHID1/leftStick/down,/SwitchProControllerHID2/leftStick/down,/XInputControllerWindows1/leftStick/down,/SwitchProControllerHID3/leftStick/down,/SwitchProControllerHID4/leftStick/down,/XInputControllerWindows2/leftStick/down,/SwitchProControllerHID5/leftStick/down,/SwitchProControllerHID6/leftStick/down,/SwitchProControllerHID7/leftStick/down,/SwitchProControllerHID8/leftStick/down,/SwitchProControllerHID9/leftStick/down,/XInputControllerWindows3/leftStick/down,/SwitchProControllerHID10/leftStick/down,/XInputControllerWindows4/leftStick/down,/SwitchProControllerHID11/leftStick/down,/XInputControllerWindows5/leftStick/down,/SwitchProControllerHID12/leftStick/down,/SwitchProControllerHID13/leftStick/down,/XInputControllerWindows6/leftStick/down,/SwitchProControllerHID14/leftStick/down,/SwitchProControllerHID/leftStick/left,/XInputControllerWindows/leftStick/left,/SwitchProControllerHID1/leftStick/left,/SwitchProControllerHID2/leftStick/left,/XInputControllerWindows1/leftStick/left,/SwitchProControllerHID3/leftStick/left,/SwitchProControllerHID4/leftStick/left,/XInputControllerWindows2/leftStick/left,/SwitchProControllerHID5/leftStick/left,/SwitchProControllerHID6/leftStick/left,/SwitchProControllerHID7/leftStick/left,/SwitchProControllerHID8/leftStick/left,/SwitchProControllerHID9/leftStick/left,/XInputControllerWindows3/leftStick/left,/SwitchProControllerHID10/leftStick/left,/XInputControllerWindows4/leftStick/left,/SwitchProControllerHID11/leftStick/left,/XInputControllerWindows5/leftStick/left,/SwitchProControllerHID12/leftStick/left,/SwitchProControllerHID13/leftStick/left,/XInputControllerWindows6/leftStick/left,/SwitchProControllerHID14/leftStick/left,/SwitchProControllerHID/leftStick/right,/XInputControllerWindows/leftStick/right,/SwitchProControllerHID1/leftStick/right,/SwitchProControllerHID2/leftStick/right,/XInputControllerWindows1/leftStick/right,/SwitchProControllerHID3/leftStick/right,/SwitchProControllerHID4/leftStick/right,/XInputControllerWindows2/leftStick/right,/SwitchProControllerHID5/leftStick/right,/SwitchProControllerHID6/leftStick/right,/SwitchProControllerHID7/leftStick/right,/SwitchProControllerHID8/leftStick/right,/SwitchProControllerHID9/leftStick/right,/XInputControllerWindows3/leftStick/right,/SwitchProControllerHID10/leftStick/right,/XInputControllerWindows4/leftStick/right,/SwitchProControllerHID11/leftStick/right,/XInputControllerWindows5/leftStick/right,/SwitchProControllerHID12/leftStick/right,/SwitchProControllerHID13/leftStick/right,/XInputControllerWindows6/leftStick/right,/SwitchProControllerHID14/leftStick/right]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f74ac24a-0364-4347-97f9-1a5fafd76cc8
+    m_ActionName: CharacterControls/Run[/SwitchProControllerHID/leftShoulder,/XInputControllerWindows/leftShoulder,/SwitchProControllerHID1/leftShoulder,/SwitchProControllerHID2/leftShoulder,/XInputControllerWindows1/leftShoulder,/SwitchProControllerHID3/leftShoulder,/SwitchProControllerHID4/leftShoulder,/XInputControllerWindows2/leftShoulder,/SwitchProControllerHID5/leftShoulder,/SwitchProControllerHID6/leftShoulder,/SwitchProControllerHID7/leftShoulder,/SwitchProControllerHID8/leftShoulder,/SwitchProControllerHID9/leftShoulder,/XInputControllerWindows3/leftShoulder,/SwitchProControllerHID10/leftShoulder,/XInputControllerWindows4/leftShoulder,/SwitchProControllerHID11/leftShoulder,/XInputControllerWindows5/leftShoulder,/SwitchProControllerHID12/leftShoulder,/SwitchProControllerHID13/leftShoulder,/XInputControllerWindows6/leftShoulder,/SwitchProControllerHID14/leftShoulder]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ac09eca9-c915-4e26-851b-c19a1d8f6123
+    m_ActionName: CharacterControls/Jump[/SwitchProControllerHID/buttonEast,/XInputControllerWindows/buttonEast,/SwitchProControllerHID1/buttonEast,/SwitchProControllerHID2/buttonEast,/XInputControllerWindows1/buttonEast,/SwitchProControllerHID3/buttonEast,/SwitchProControllerHID4/buttonEast,/XInputControllerWindows2/buttonEast,/SwitchProControllerHID5/buttonEast,/SwitchProControllerHID6/buttonEast,/SwitchProControllerHID7/buttonEast,/SwitchProControllerHID8/buttonEast,/SwitchProControllerHID9/buttonEast,/XInputControllerWindows3/buttonEast,/SwitchProControllerHID10/buttonEast,/XInputControllerWindows4/buttonEast,/SwitchProControllerHID11/buttonEast,/XInputControllerWindows5/buttonEast,/SwitchProControllerHID12/buttonEast,/SwitchProControllerHID13/buttonEast,/XInputControllerWindows6/buttonEast,/SwitchProControllerHID14/buttonEast]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: CharacterControls
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 1832347742}
 --- !u!1 &1980113251
 GameObject:
   m_ObjectHideFlags: 0
@@ -3961,7 +4052,7 @@ Transform:
   m_Children:
   - {fileID: 261127410}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1991891441
 GameObject:
@@ -4184,7 +4275,7 @@ Transform:
   m_LocalScale: {x: 3.8947048, y: 3.8947048, z: 3.8947048}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &2081444386
 GameObject:
