@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.61107665, g: 0.55461204, b: 0.65123695, a: 1}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -830,6 +834,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199086879}
   m_Mesh: {fileID: 4300000, guid: 7d289a7f09e56c543a5d06e1a816ceef, type: 2}
+<<<<<<< HEAD
+=======
+--- !u!1001 &233905781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -211.14848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.74088144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 364.7029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5988631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000073034303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80085135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000003813185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &237074409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1568,6 +1644,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &405682630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -386.87106
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -363.29053
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7722756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6352875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.883
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1 &429205497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,7 +2422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 55
+=======
+      value: 79
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
       objectReference: {fileID: 0}
     - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
       propertyPath: m_LocalScale.x
@@ -2330,6 +2482,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &528509816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -448.47003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -337.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8455918
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00092756975
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5338292
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00019877199
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -64.529
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.037
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1 &529154903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,7 +2584,11 @@ Transform:
   m_Children:
   - {fileID: 433756886}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 32
+=======
+  m_RootOrder: 33
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &529154905
 MeshCollider:
@@ -3243,6 +3471,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &734313139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -328.73972
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15560019
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -369.9692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7733264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0008959869
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6340074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00031161308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.037
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &743237963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3494,6 +3794,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799047547}
   m_Mesh: {fileID: 4300000, guid: 1364872832b2ec940b6357faec03bb8b, type: 2}
+<<<<<<< HEAD
+=======
+--- !u!1001 &856252872
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -224.00943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7409253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 367.8526
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5988631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000073034303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80085135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000003813185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1 &897558365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3838,6 +4210,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84bb5c178aff6234f953704226366b7d, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &997497154
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -423.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -355.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7733906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6339299
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.681
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &1006838541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3976,6 +4420,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442a7ef46645f4745823a2ec767cfe4e, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1016760596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -195.34769
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.74083185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 360.4804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60026914
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000007312127
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7997981
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000038013636
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.222
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &1029365583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4045,6 +4561,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88cc9a01ef104764595a70aa18dc6761, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1034931530
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -364.9544
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -367.09326
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7733906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6339299
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.681
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &1053246577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4159,7 +4747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cdac80e1dd15a450f93408e7aa5be2f7, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cdac80e1dd15a450f93408e7aa5be2f7, type: 3}
       propertyPath: m_LocalScale.x
@@ -4449,6 +5037,78 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cedbb773b4774f540b16dc918e95f7e8, type: 2}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1261244663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -181.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7407999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 356.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5988631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000073034303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80085135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000003813185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &1270141071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4518,6 +5178,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788fca2f130b345b89e94b0c5ad32a0c, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1298497563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -237.49625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7818041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 369.17862
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5989437
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00026410283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80079055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0009127851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.411
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.038
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1 &1380600457
 GameObject:
   m_ObjectHideFlags: 0
@@ -4951,7 +5683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f81d17ce2a4146e28e18f768d3dce55, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f81d17ce2a4146e28e18f768d3dce55, type: 3}
       propertyPath: m_LocalScale.x
@@ -5881,7 +6613,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 17
+=======
+  m_RootOrder: 18
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1857764588
 PrefabInstance:
@@ -6090,6 +6826,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd25063ce52e294dbfb60adbe67d338, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &1930240311
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5127263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -168.79724
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7407627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 352.36005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5988631
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000073034303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.80085135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000003813185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &1971116880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6180,7 +6988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 40
+      value: 32.07
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6370,6 +7178,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee86ced8d111c404eb772bc1be092283, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &2110522190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1714870994905798194, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_Name
+      value: KemWeber_lounge_chair_Streamline_design (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_RootOrder
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.77542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -347.17047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -369.80402
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7733906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6339299
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -78.681
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374574157741922649, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa0b9e1c4cde6ba44b93c407eec05add, type: 3}
+>>>>>>> e8903da63c6da685b5155b91ff0bb366e44a180d
 --- !u!1001 &2112971249
 PrefabInstance:
   m_ObjectHideFlags: 0
