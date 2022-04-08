@@ -16,10 +16,13 @@ public class PortalMain : MonoBehaviour
         
     }
     void OnCollisionEnter(Collision gameObjectInformation){
-        if (gameObjectInformation.gameObject.name == "FPSController") {
-            Debug.Log ("Collision Detected");
-            SceneManager.LoadScene ("Space");
-        }
+        //if (gameObjectInformation.gameObject.name == "FPSController") {
+        // Debug.Log ("Collision Detected");
+        //SceneManager.LoadScene ("Space");
+        //}
+
+        Debug.Log(gameObjectInformation.gameObject.name); 
+        
 
     }
 
